@@ -1,0 +1,79 @@
+
+  /** {*/
+  /*  border: 1px solid;*/
+  /*}*/
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #eee;
+}
+
+.yinying {
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+}
+
+.flex {
+  display: flex;
+}
+
+.baiSe {
+  background-color: white;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.shuJu {
+  height: 100px;
+}
+
+.mag8 {
+  margin: 8px
+}
+
+.magr8 {
+  margin-right: 8px;
+}
+
+.magt8 {
+  margin-top: 8px;
+}
+
+.daoHang {
+  padding: 10px 20px;
+  border-bottom: 1px solid #999;
+  font-size: 14px;
+  color: #666;
+
+}
+
+@media (max-width: 600px) {
+  .ceBian {
+    display: none;
+  }
+
+  .neiRong {
+    flex-direction: column;
+  }
+
+  .shuJuQu {
+    flex-direction: column;
+  }
+
+  .youQu {
+    margin-left: 8px;
+  }
+
+  .shuJu {
+    margin: 0 0 8px;
+    flex: auto;
+  }
+
+}
+
